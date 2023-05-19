@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.services{
+    margin-top: 2px;
+    padding: 20px 40px 50px;
+    background-color: aliceblue;
+}
+
+header{
+    height: 75px;
+    width: 100%;
+    background-color: #f2f2f1;
+}
+
+.heading{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+p{
+    padding-top: 10px;
+}
+
+i{
+    color: #7bb4ea;
+}
+
+h1{
+    text-decoration: underline;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.box{
+    /* width: 33.33%; */
+    /* margin: 10px; */
+    padding: 30px 20px 30px;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgb(194, 193, 193);
+    text-align: center;
+    border-radius: 3px;
+}
+
+.box h2{
+    padding-bottom: 30px;
+}
+.box i{
+    padding-bottom: 20px;
+}
+.box p{
+    padding-bottom: 20px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #7bb4ea;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.box-marginweb, .box-marginapp{
+    margin-right: 10px;
+}
+
+.box:hover{
+    background-color: #f2f2f1;
+
+}
+
+
+
+/* Media Queries For mobile */
+
+@media (max-width: 550px){
+    .box{
+        width: 100%;
+    }
+    .container{
+        display: block;
+    }
+    .box-marginweb, .box-marginapp{
+        margin-bottom: 10px;
+    }
+
+}
+
+/* Media Queries For Table */
+
+@media(min-width: 551px) and (max-width: 900px){
+    .container{
+        display: block;
+    }
+    .box{
+        width: 100%;
+    }
+
+    .box-marginweb, .box-marginapp{
+        margin-bottom: 10px;
+    }
+    
+}
+
+
